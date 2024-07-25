@@ -19,6 +19,14 @@ To install ITS_CLI, use the following command:
 pip install ITS_CLI
 ```
 
+## Usage
+To use this program, you need to prepare three things:
+1) ITS account and password
+2) config.ini file for server connection
+3) Certificate file for communication encryption
+Please contact the administrator for these.
+For actual usage, please refer to the test_ITS_CLI.py file in the tests folder.
+
 ## License
 This project is distributed under the MIT License. See the LICENSE file for details.
 
