@@ -1,0 +1,19 @@
+# .gitignore
+
+# dir
+build/
+dist/
+ITS_CLI/
+ITS_CLI.egg-info/
+venv/
+tests/cert/
+tests/log/
+tests/sensor_data/
+
+# file
+tests/config.ini
+tests/structure_info.csv
+tests/test_ITS_CLI_develop.py
+bkmemo.txt
+tests.zip
+setup.py
