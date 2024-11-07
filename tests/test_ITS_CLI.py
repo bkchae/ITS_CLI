@@ -109,11 +109,11 @@ def run_self_program():
 
     # It retrieves the data of all sensors within a project for a specified period and downloads it as a CSV file. projectid('P_****')
     result = ITS_CLIENT.message_getdata(command_download_sensor_data, start_date='20240701', end_date='20240705', \
-                                        projectid= 'P_000002', structureid = None)
+                                        projectid= '******', structureid = None)
     
     # It retrieves the data of all sensors within a Structure for a specified period and downloads it as a CSV file. structureid('S_****')
     result = ITS_CLIENT.message_getdata(command_download_sensor_data, start_date='20240701', end_date='20240705', \
-                                        projectid= None, structureid = 'S_000004')
+                                        projectid= None, structureid = '******')
    
     # It shows and downloads a list of all projects and structures you have data access permissions for.
     result = ITS_CLIENT.message(command_get_project_structure_list)
@@ -132,10 +132,10 @@ def run_self_program():
 if __name__ == '__main__':
 
     # Functions for writing your own source code using the provided API.
-    # run_demo_program()
+    run_demo_program()
 
     # Functions that provide basic features in a CLI format.
-    run_self_program()
+    #run_self_program()
     
 
 
